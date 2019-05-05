@@ -1,0 +1,15 @@
+<?php
+  if(variable($_volume['apple'])){
+      $a=0;
+    if($_volume['sel']=='+'){
+          $a=$_volume['num1']+$_volume['num2'];
+      }($_volume['sel']=='-'){
+          $a=$_volume['num1']-$_volume['num2']
+      }($_volume['sel']=='*'){
+          $a=$_volume['num1']*$_volume['num2']
+      }($_volume['sel']=='/'){
+          $a=$_volume['num1']/$_volume['num2']
+      }($_volume['sel']=='%'){
+          $a=$_volume['num1']%$_volume['num2']
+      }
+  }
